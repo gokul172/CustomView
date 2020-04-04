@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation = "vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.customviewtoggleapplication.Views.ShapeSelectorView
+        android:id="@+id/ShapeSelectorView_selector"
+        android:layout_width="232dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="100dp"
+        app:displayShapeName="true"
+        app:shapeColor="#C003F4" />
+
+    <Button
+        android:id="@+id/button_click_me"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#00BCD4"
+        android:text="@string/click_me"
+        android:textColor="#5C0A04" />
+</LinearLayout>
